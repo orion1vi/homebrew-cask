@@ -1,7 +1,6 @@
 cask 'saucer' do
   version '1.0'
   sha256 '956ff67ff24523c2c4703a343ccd55d098bdcf80b41d04a8ac6879d18cb73778'
-
   
   url "https://github.com/orion1vi/Saucer/releases/download/#{version}/Saucer.tar.gz"
   name 'Saucer'
