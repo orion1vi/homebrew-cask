@@ -7,4 +7,8 @@ cask 'spek-alternative' do
   homepage 'https://github.com/withmorten/spek-alternative'
 
   app 'Spek.app'
+
+  zap trash: [
+    '~/Library/Saved Application State/org.spek-project.savedState'
+  ]
 end
